@@ -22,7 +22,7 @@ public class DragonCave {
                 A large dragon jumps out in front of you! He opens his jaws and...
                 Gobbles you down in one bite!
                 """;
-        String dialogeFriendly = """
+        String dialogueFriendly = """
                 \nYou approach the cave...
                 The sun peers through a skylight...
                 You see a large dragon sleeping,
@@ -47,7 +47,7 @@ public class DragonCave {
         if (choice == hungryCave) {
             System.out.println(dialogueHungry);
         } else {
-            System.out.println(dialogeFriendly);
+            System.out.println(dialogueFriendly);
         }
     }
 }
