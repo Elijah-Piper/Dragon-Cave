@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Added game dialogue, user input, and story trajectory logic." />
+    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="workspace.xml update">
+      <change beforePath="$PROJECT_DIR$/src/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DragonCave.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656347507711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace.xml update">
+      <created>1656347591852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656347591852</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +105,7 @@
     <MESSAGE value="Initial creation of project directory." />
     <MESSAGE value="Added workspace.xml" />
     <MESSAGE value="Added game dialogue, user input, and story trajectory logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added game dialogue, user input, and story trajectory logic." />
+    <MESSAGE value="workspace.xml update" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml update" />
   </component>
 </project>
