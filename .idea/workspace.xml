@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Removed redundant commented dialogue variable code.">
+    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Added Maven support.">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_27_2022_9_32_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_27_2022_9_32_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DragonCave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DragonCave.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/GenSpark/genspark-java-core/genspark-java-core",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GenSpark/Projects/Dragon Cave&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DragonCave" />
@@ -103,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656348038793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed misspelled &quot;dialogeFriendly&quot; variable name to &quot;dialogueFriendly&quot;.">
+      <created>1656348492375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656348492375</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +135,8 @@
     <MESSAGE value="workspace.xml update" />
     <MESSAGE value="Changed dialogue variable from concatenated strings to text blocks." />
     <MESSAGE value="Removed redundant commented dialogue variable code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant commented dialogue variable code." />
+    <MESSAGE value="Fixed misspelled &quot;dialogeFriendly&quot; variable name to &quot;dialogueFriendly&quot;." />
+    <MESSAGE value="Added Maven support." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Maven support." />
   </component>
 </project>
