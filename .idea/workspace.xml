@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Added test for randomIntOneOrTwo">
+    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Refactored user input querying and validation to getUserInput method, encapsulated with error catching.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DragonCave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DragonCaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragonCaveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DragonCave.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DragonCave.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +73,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragonCaveTest.placeholder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DragonCaveTest.getUserChoiceReturnsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dragon Cave" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DragonCaveTest" />
-      <option name="METHOD_NAME" value="placeholder" />
+      <option name="METHOD_NAME" value="getUserChoiceReturnsOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DragonCaveTest.getUserChoiceReturnsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dragon Cave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragonCaveTest" />
+      <option name="METHOD_NAME" value="getUserChoiceReturnsTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DragonCaveTest.getUserChoiceStringInputDoesNotThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dragon Cave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragonCaveTest" />
+      <option name="METHOD_NAME" value="getUserChoiceStringInputDoesNotThrowException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,9 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DragonCaveTest.randomIntOneOrTwoShouldReturnOneOrTwo" />
         <item itemvalue="JUnit.DragonCaveTest" />
-        <item itemvalue="JUnit.DragonCaveTest.placeholder" />
+        <item itemvalue="JUnit.DragonCaveTest.getUserChoiceStringInputDoesNotThrowException" />
+        <item itemvalue="JUnit.DragonCaveTest.getUserChoiceReturnsTwo" />
+        <item itemvalue="JUnit.DragonCaveTest.getUserChoiceReturnsOne" />
+        <item itemvalue="JUnit.DragonCaveTest.randomIntOneOrTwoShouldReturnOneOrTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657029123238</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refactored user input querying and validation to getUserInput method, encapsulated with error catching.">
+      <created>1657031045101</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031045101</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +265,7 @@
     <MESSAGE value="Added testing template file for DragonCave class." />
     <MESSAGE value="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function." />
     <MESSAGE value="Added test for randomIntOneOrTwo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test for randomIntOneOrTwo" />
+    <MESSAGE value="Refactored user input querying and validation to getUserInput method, encapsulated with error catching." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored user input querying and validation to getUserInput method, encapsulated with error catching." />
   </component>
 </project>

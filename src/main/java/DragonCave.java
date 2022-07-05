@@ -31,11 +31,8 @@ public class DragonCave {
         return choice;
     }
 
-    public static void main(String[] args) {
-        // Determination of which cave will contain the hungry dragon and which cave will contain the friendly dragon.
-        int hungryCave = randomIntOneOrTwo();
-
-        // The dialogue strings are the console printouts for the game story and player guidance.
+    static void printDialogue(String dialogue) {
+        // 3 options: the initial game opening dialogue and the two ending outcomes
         final Map<String, String> DIALOGUES = Map.ofEntries(
                 Map.entry("initial", """
                 You are in a land full of dragons. In front of you,
@@ -60,18 +57,25 @@ public class DragonCave {
                 """)
         );
 
+        System.out.println(DIALOGUES.get(dialogue));
+    }
+
+    public static void main(String[] args) {
+        // Determination of which cave will contain the hungry dragon and which cave will contain the friendly dragon.
+        int hungryCave = randomIntOneOrTwo();
+
         // Scanner for console detected user input
         Scanner scan = new Scanner(System.in);
 
-        System.out.println(DIALOGUES.get("initial"));
+        printDialogue("initial");
 
         int choice = getUserChoice();
 
         // Player choice determination based on the random integer created in hungryCave variable
         if (choice == hungryCave) {
-            System.out.println(DIALOGUES.get("hungry"));
+            printDialogue("hungry");
         } else {
-            System.out.println(DIALOGUES.get("friendly"));
+            printDialogue("friendly");
         }
     }
 }
