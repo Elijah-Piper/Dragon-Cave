@@ -1,21 +1,42 @@
+import java.util.InputMismatchException;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.Scanner;
 
 public class DragonCave {
 
-    public static int randomIntOneOrTwo() {
+    static int randomIntOneOrTwo() {
         // Returns random integer, either 1 or 2
         return ThreadLocalRandom.current().nextInt(1, 3);
     }
 
-    public static void main(String[] args) {
+    static int getUserChoice() {
+        // Choice must be int 1 or 2
+        Scanner sc = new Scanner(System.in);
 
+        int choice = 0;
+        while (choice != 1 && choice != 2) {
+            try {
+                choice = sc.nextInt();
+                while (choice != 1 && choice != 2) {
+                    System.out.println("\nInvalid choice. Please choose 1 or 2.\n");
+                    choice = sc.nextInt();
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("\nInvalid choice. Please choose 1 or 2.\n");
+                sc.next(); // This is needed for scanner to not endlessly continue scanning non int input
+            }
+        }
+
+        return choice;
+    }
+
+    public static void main(String[] args) {
         // Determination of which cave will contain the hungry dragon and which cave will contain the friendly dragon.
         int hungryCave = randomIntOneOrTwo();
 
         // The dialogue strings are the console printouts for the game story and player guidance.
-        final Map<String, String> dialogues = Map.ofEntries(
+        final Map<String, String> DIALOGUES = Map.ofEntries(
                 Map.entry("initial", """
                 You are in a land full of dragons. In front of you,
                 you see two caves. In one cave, the dragon is friendly
@@ -42,19 +63,15 @@ public class DragonCave {
         // Scanner for console detected user input
         Scanner scan = new Scanner(System.in);
 
-        System.out.println(dialogues.get("initial"));
+        System.out.println(DIALOGUES.get("initial"));
 
-        int choice = scan.nextInt();
-        while (choice != 1 && choice != 2) {
-            System.out.println("Invalid choice. Please choose 1 or 2.");
-            choice = scan.nextInt();
-        }
+        int choice = getUserChoice();
 
         // Player choice determination based on the random integer created in hungryCave variable
         if (choice == hungryCave) {
-            System.out.println(dialogues.get("hungry"));
+            System.out.println(DIALOGUES.get("hungry"));
         } else {
-            System.out.println(dialogues.get("friendly"));
+            System.out.println(DIALOGUES.get("friendly"));
         }
     }
 }

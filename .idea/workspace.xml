@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function.">
+    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Added test for randomIntOneOrTwo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DragonCave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DragonCaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragonCaveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DragonCave.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DragonCave.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DragonCaveTest.randomIntOneOrTwoShouldReturnOneOrTwo">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DragonCave" />
       <module name="Dragon Cave" />
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657027591319</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added test for randomIntOneOrTwo">
+      <created>1657029123238</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657029123238</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +234,7 @@
     <MESSAGE value="Replaced forward-slash with back-slash." />
     <MESSAGE value="Added testing template file for DragonCave class." />
     <MESSAGE value="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function." />
+    <MESSAGE value="Added test for randomIntOneOrTwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for randomIntOneOrTwo" />
   </component>
 </project>
