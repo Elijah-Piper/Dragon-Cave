@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Replaced forward-slash with back-slash.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DragonCaveTest.java" afterDir="false" />
+    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Added testing template file for DragonCave class.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DragonCave.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +39,34 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/GenSpark/Projects/Dragon Cave",
+    "last_opened_file_path": "C:/GenSpark/Projects/Guess-the-Number",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DragonCaveTest.placeholder">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DragonCave" />
       <module name="Dragon Cave" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DragonCaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dragon Cave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragonCaveTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DragonCaveTest" />
         <item itemvalue="JUnit.DragonCaveTest.placeholder" />
       </list>
     </recent_temporary>
@@ -148,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656973435269</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Replaced forward-slash with back-slash.">
+      <created>1656973850225</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656973850225</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added testing template file for DragonCave class.">
+      <created>1656973975705</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656973975705</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +206,7 @@
     <MESSAGE value="Added Maven support." />
     <MESSAGE value="Added Junit 5.8.2 dependency." />
     <MESSAGE value="Replaced forward-slash with back-slash." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replaced forward-slash with back-slash." />
+    <MESSAGE value="Added testing template file for DragonCave class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added testing template file for DragonCave class." />
   </component>
 </project>
