@@ -4,6 +4,29 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.Scanner;
 
 public class DragonCave {
+    final static Map<String, String> DIALOGUES = Map.ofEntries(
+            Map.entry("initial", """
+                You are in a land full of dragons. In front of you,
+                you see two caves. In one cave, the dragon is friendly
+                and will share his treasure with you. The other dragon
+                is greedy and hungry and will eat you on sight.
+                Which cave will you go into? (1 or 2)\n
+                """),
+            Map.entry("hungry", """
+                \nYou approach the cave...
+                It is dark and spooky...
+                A large dragon jumps out in front of you! He opens his jaws and...
+                Gobbles you down in one bite!
+                """),
+            Map.entry("friendly", """
+                \nYou approach the cave...
+                The sun peers through a skylight...
+                You see a large dragon sleeping,
+                having gorged himself the local shepherd's goats!
+                Your eyes catch a pile of treasure in the opposite corner...
+                You collect all you can carry and escape without disturbing the beast!
+                """)
+    );
 
     static int randomIntOneOrTwo() {
         // Returns random integer, either 1 or 2
@@ -33,30 +56,6 @@ public class DragonCave {
 
     static void printDialogue(String dialogue) {
         // 3 options: the initial game opening dialogue and the two ending outcomes
-        final Map<String, String> DIALOGUES = Map.ofEntries(
-                Map.entry("initial", """
-                You are in a land full of dragons. In front of you,
-                you see two caves. In one cave, the dragon is friendly
-                and will share his treasure with you. The other dragon
-                is greedy and hungry and will eat you on sight.
-                Which cave will you go into? (1 or 2)\n
-                """),
-                Map.entry("hungry", """
-                \nYou approach the cave...
-                It is dark and spooky...
-                A large dragon jumps out in front of you! He opens his jaws and...
-                Gobbles you down in one bite!
-                """),
-                Map.entry("friendly", """
-                \nYou approach the cave...
-                The sun peers through a skylight...
-                You see a large dragon sleeping,
-                having gorged himself the local shepherd's goats!
-                Your eyes catch a pile of treasure in the opposite corner...
-                You collect all you can carry and escape without disturbing the beast!
-                """)
-        );
-
         System.out.println(DIALOGUES.get(dialogue));
     }
 
