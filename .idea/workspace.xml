@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Added testing template file for DragonCave class.">
+    <list default="true" id="8c6b0b02-8ff8-4bf5-9530-700e719c301d" name="Changes" comment="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DragonCave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DragonCaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DragonCaveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DragonCave.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DragonCave.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="JUnit.DragonCaveTest.randomIntOneOrTwoShouldReturnOneOrTwo">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DragonCave" />
       <module name="Dragon Cave" />
@@ -81,8 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DragonCaveTest.randomIntOneOrTwoShouldReturnOneOrTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dragon Cave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragonCaveTest" />
+      <option name="METHOD_NAME" value="randomIntOneOrTwoShouldReturnOneOrTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DragonCaveTest.randomIntOneOrTwoShouldReturnOneOrTwo" />
         <item itemvalue="JUnit.DragonCaveTest" />
         <item itemvalue="JUnit.DragonCaveTest.placeholder" />
       </list>
@@ -181,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656973975705</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function.">
+      <created>1657027591319</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657027591319</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +227,7 @@
     <MESSAGE value="Added Junit 5.8.2 dependency." />
     <MESSAGE value="Replaced forward-slash with back-slash." />
     <MESSAGE value="Added testing template file for DragonCave class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testing template file for DragonCave class." />
+    <MESSAGE value="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored dialogue strings into a dialogues Map and moved threadLocalRandom integer into isolated function." />
   </component>
 </project>

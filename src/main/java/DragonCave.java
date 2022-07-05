@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DragonCave {
 
-    private static int randomIntOneOrTwo() {
+    public static int randomIntOneOrTwo() {
         // Returns random integer, either 1 or 2
         return ThreadLocalRandom.current().nextInt(1, 3);
     }
